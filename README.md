@@ -6,4 +6,5 @@ Libs in use
 * holderjs
 * fontawesome
 * Rails no JS pattern
+* SEO
 * [...consider other new basic things...]

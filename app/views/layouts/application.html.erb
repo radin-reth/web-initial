@@ -3,7 +3,49 @@
 <head>
   <title>Kmap</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <!-- basic SEO -->
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1'        http-equiv='X-UA-Compatible'>
+  <meta content='[ DESCRIPTION ]'         name='description'>
+  <meta content='[ KEYWORDS ]'            name='keywords'>
+  <meta content='index, follow'           name='robots'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+
+  <!-- OG -->
+  <meta content='[ TITLE ]'               property='og:title'>
+  <meta content='[ DESCRIPTION ]'         property='og:description'>
+  <meta content='website'                 property='og:type'>
+  <meta content='[ SOCIAL IMAGE ]'        property='og:image'>
+  <meta content='http://[ SOCIAL URL ]/'  property='og:url'>
+
+  <!-- Twitter -->
+  <meta content='http://[ SOCIAL URL ]/'  name='twitter:url'>
+  <meta content='[ TITLE ]'               name='twitter:title'>
+  <meta content='[ DESCRIPTION ]'         name='twitter:description'>
+  <meta content='[ SOCIAL IMAGE ]'        name='twitter:image'>
+
+  <!-- Itemscope -->
+  <meta content='[ NAME ]'                itemscope='name'>
+  <meta content='[ DESCRIPTION ]'         itemscope='description'>
+  <meta content='[ SOCIAL IMAGE ]'        itemscope='image'>
+
   <%= csrf_meta_tags %>
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '[ GOOGLE KEY ]']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
 </head>
 <body data-class-name="<%= js_class_name %>">
 
