@@ -1,0 +1,404 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 15:34:27 +0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/railties-4.1.1/lib/rails/templates/rails/welcome/index.html.erb (15.6ms)
+Completed 200 OK in 180ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 15:36:43 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2168ms (Views: 2096.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 15:36:46 +0700
+
+
+Started GET "/galleries?locale=en&theme=brave-sidebar" for 127.0.0.1 at 2015-01-17 16:02:47 +0700
+
+ActionController::RoutingError (No route matches [GET] "/galleries"):
+  actionpack (4.1.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.1) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.1) lib/rails/engine.rb:514:in `call'
+  railties (4.1.1) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/radin/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/radin/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/radin/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (57.9ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (133.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:02:53 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2816ms (Views: 2813.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:02:57 +0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:03:08 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:03:08 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:08:27 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined local variable or method `controller' for #<HomeController:0xb4d84488>):
+     5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+     6:   <%= csrf_meta_tags %>
+     7: </head>
+     8: <body data-class-name="<%= js_class_name %>">
+     9: 
+    10: <%= yield %>
+    11: 
+  app/controllers/application_controller.rb:13:in `js_class_name'
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__978490911__630416828'
+
+
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/radin/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (57.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:11:26 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 197ms (Views: 194.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:11:27 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:11:28 +0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:12:04 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:12:04 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:17:50 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1966ms (Views: 1964.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:17:53 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:18:52 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 760ms (Views: 753.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:18:53 +0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:19:00 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:19:00 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:19:32 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1210ms (Views: 1208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:19:34 +0700
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2015-01-17 16:26:59 +0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:26:59 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:28:47 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 228ms (Views: 225.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:48 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:49 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:49 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:28:49 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-17 16:40:45 +0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 8255ms (Views: 8181.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-17 16:40:54 +0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:54 +0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:54 +0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/libs/bootstrap.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/libs/holderjs.min.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/libs/namespaces.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/views/application_view.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/views/home/index.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/libs/page_load.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
+
+
+Started GET "/assets/fa/fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2015-01-17 16:40:55 +0700
